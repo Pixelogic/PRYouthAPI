@@ -11,11 +11,21 @@ require.config( {
       },
       shim: {
             "lightbox": {"deps": [ "jquery" ],"exports": "lightbox" }
-            } 
+      } 
 } );
 
-require([ "jquery", "app"], function( $, app ) {
+require(["jquery"], function( $, app ) {
 	$(document).ready(function() {    
-		
+		categories = $.ajax({
+      url: 'http://www.pixelogicpr.com/PRYouthAPI/public/api/categories',
+      type: 'GET',
+      dataType: 'jsonp',
+      data: {}
+      });
+
+    categories.done(function(result) {
+      console.log('lalalala');
+    });
+            
 	});
 } ); 

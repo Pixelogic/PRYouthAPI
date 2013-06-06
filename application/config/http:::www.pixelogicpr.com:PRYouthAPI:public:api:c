@@ -1,0 +1,8 @@
+http://www.pixelogicpr.com/PRYouthAPI/public/api/categories
+http://www.pixelogicpr.com/PRYouthAPI/public/api/counties
+http://www.pixelogicpr.com/PRYouthAPI/public/api/indicatorList
+http://www.pixelogicpr.com/PRYouthAPI/public/api/indicatorsByCounty?id=1
+http://www.pixelogicpr.com/PRYouthAPI/public/api/indicatorsByCategoryName?category=Salud
+http://www.pixelogicpr.com/PRYouthAPI/public/api/indicatorsByCategoryId?id=1
+http://www.pixelogicpr.com/PRYouthAPI/public/api/indicatorsByCountyName?county=Adjuntas
+http://www.pixelogicpr.com/PRYouthAPI/public/api/indicators?id=1

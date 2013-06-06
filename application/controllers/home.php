@@ -1,8 +1,8 @@
 <?php
 
 class Home_Controller extends Base_Controller {
-	// public $restful = true;
-	// public $layout = "layouts.default";
+	public $restful = true;
+	public $layout = "layouts.default";
 
 	public function get_index()
 	{

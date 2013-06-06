@@ -202,7 +202,7 @@ class Api_Controller extends Controller {
 				where ind.indicator_id 	= i.id and 
 					  ind.county_id 	= c.id and 
 					  i.categoryid 		= cat.id and 
-					  i.id = $indicator_id";
+					  ind.indicator_id = $indicator_id";
 
 
 		$cats = DB::query($sql);

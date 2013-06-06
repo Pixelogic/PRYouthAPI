@@ -31,7 +31,7 @@ CREATE TABLE IF NOT EXISTS `categories` (
   `id` int(11) NOT NULL DEFAULT '0',
   `name` varchar(50) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf16;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `categories`

@@ -72,7 +72,7 @@ return array(
 			'host'     => '127.0.0.1',
 			'database' => 'pryouthapi',
 			'username' => 'root',
-			'password' => '',
+			'password' => 'alkaeda',
 			'charset'  => 'utf8',
 			'prefix'   => '',
 		),

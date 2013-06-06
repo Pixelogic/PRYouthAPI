@@ -1,0 +1,93 @@
+.friendlist{
+	 list-style-type: none;
+
+	p{ 
+		color: #253f56;
+		padding: 0;
+	}
+	li{
+		margin:7px 0;
+		cursor: hand; cursor: pointer;
+	}
+	.friend_container{//totalidad de el friend ribbon y el checkmark
+		height: 76px;
+		display:none;
+
+		.check{
+			background: url('../img/check.png') no-repeat center;
+			height: 24px;
+			width:24px;
+			float:left;
+			margin: 28px 8px;
+			display:none;
+			&.unsel{
+				background-position: center 0;
+			}
+			&.sel{
+				background-position: center -24px;
+			}
+		}
+
+		.friend_ribbon{
+			background: url('../img/friend_ribbon.png');
+			width:205px;
+			height:76px;
+			float: left;
+			//display:none;
+			
+
+			.friend_name{
+				width:127px ;
+				height:22px ;
+				display: block;
+				margin: 0 12px 0 68px;
+				position: relative;
+				border-bottom: 1px solid #253f56;
+			}
+			.friend_status{
+				width:127px;
+				height:40px;
+				display: block;
+				margin: 0 12px 0 68px;
+				position:relative;	
+			}
+			.friend_picture1{
+				background: url('../img/friend1.jpg')center no-repeat;
+				width: 50px;
+				height: 50px;
+				margin:14px 0 0 9px;
+				float: left;
+			}
+			.friend_picture2{
+				background: url('../img/friend2.jpg')center no-repeat;
+				width: 50px;
+				height: 50px;
+				float: left;
+				margin:14px 0 0 9px;
+			}
+			.friend_picture3{
+				background: url('../img/friend3.jpg')center no-repeat;
+				width: 50px;
+				height: 50px;
+				margin:14px 0 0 9px;
+				float: left;
+			}
+			.friend_picture4{
+				background: url('../img/friend4.jpg')center no-repeat;
+				width: 50px;
+				height: 50px;
+				margin:14px 0 0 9px;
+				float: left;
+			}
+			.friend_picture5{
+				background: url('../img/friend5.jpg')center no-repeat;
+				width: 50px;
+				height: 50px;
+				margin:14px 0 0 9px;
+				float: left;
+			}
+
+		}
+
+	}//friend_container
+}//friendlist

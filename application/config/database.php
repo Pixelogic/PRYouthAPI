@@ -42,7 +42,7 @@ return array(
 	|
 	*/
 
-	'default' => 'sqlite',
+	'default' => 'mysql',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -70,7 +70,7 @@ return array(
 		'mysql' => array(
 			'driver'   => 'mysql',
 			'host'     => '127.0.0.1',
-			'database' => 'magicbag',
+			'database' => 'pryouthapi',
 			'username' => 'root',
 			'password' => '',
 			'charset'  => 'utf8',
@@ -80,7 +80,7 @@ return array(
 		'pgsql' => array(
 			'driver'   => 'pgsql',
 			'host'     => '127.0.0.1',
-			'database' => 'magicbag',
+			'database' => '',
 			'username' => 'root',
 			'password' => '',
 			'charset'  => 'utf8',

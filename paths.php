@@ -24,8 +24,6 @@
 $environments = array(
 
 	'local' => array('http://localhost*', '*.dev'),
-  'prod' => array('http://gustazos.com*'),
-  'raymesh' => array('http://192.168.1.144*'),
 
 );
 

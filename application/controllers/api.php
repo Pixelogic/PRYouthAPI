@@ -211,6 +211,19 @@ class Api_Controller extends Controller {
 	}	
 
 
+	
+	public function get_CountiesHTMLSelectOptions() {
+		// get temporary indicator details
+		$counties = DB::table('counties')->get();
+
+		// for each indicator normilize county data
+		foreach ($counties as $county)
+		{
+			$html = "<option value='$county->id'>$county->name</option>";
+			echo $html;
+		}
+	}
+
 	public function get_dbnormilizer()
 	{	
 		// get temporary indicator details

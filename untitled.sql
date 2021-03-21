@@ -14,3 +14,4 @@ where ind.indicator_id 	= i.id and
 	  ind.county_id 	= c.id and 
 	  i.categoryid 		= cat.id
 
+# hello
